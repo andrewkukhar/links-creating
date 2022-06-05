@@ -19,7 +19,7 @@ function App() {
     <AuthContext.Provider value={{
       token, login, logout, userId, isAuthenticated
     }}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         {isAuthenticated && <Navbar />}
         <div className="container">
           {routes}
