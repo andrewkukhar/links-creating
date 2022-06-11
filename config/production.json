@@ -1,6 +1,6 @@
 {
     "port": 5000,
     "jwtSecret": "mern app secret",
-    "mongoUri": "mongodb+srv://andriikukhar:rise07101987@cluster0.9lm6s.mongodb.net/?retryWrites=true&w=majority",
+    "mongoUri": "mongodb+srv://andriikukhar:rise07101987@cluster0.9lm6s.mongodb.net/test?retryWrites=true&w=majority",
     "baseUrl": "http://localhost:5000"
 }
